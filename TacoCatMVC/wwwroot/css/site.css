@@ -1,0 +1,108 @@
+:root {
+    --primary: #1d5888;
+    --secondary: #ff993b;
+    --dark-color: #292929;
+    --white-color: #e7e7e7;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+body {
+    color: var(--dark-color);
+}
+
+nav {
+    background-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--primary);
+}
+
+footer {
+    padding-right: 1rem;
+}
+
+    footer .social a {
+        color: var(--white-color);
+        opacity: 0.75;
+    }
+
+    footer .social > a:hover {
+        opacity: 0.9;
+        color: var(--secondary);
+    }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoFont {
+    font-family: 'Berkshire Swash', serif;
+}
+
+.bsicon {
+    color: purple;
+}
+
+.jsicon {
+    color: rgb(226, 211, 4);
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(11, 82, 214);
+}
+
+.checklist > li i {
+    color: var(--secondary);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+#btnSubmit {
+    background: rgb(3,0,36);
+    background: linear-gradient(270deg, rgba(109,96,255,1) 0%, rgba(16,157,255,1) 67%, rgba(15,210,250,1) 100%);
+    color: #292929;
+    font-weight: 600;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: black;
+    box-shadow: 1px 1px 5px;
+}
+
+    #btnSubmit:hover {
+        opacity: 0.75;
+        background-color: rgb(73, 98, 170);
+        color: whitesmoke;
+        box-shadow: 1px 4px 8px;
+    }
+
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
