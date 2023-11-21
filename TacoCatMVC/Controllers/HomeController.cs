@@ -57,7 +57,7 @@ namespace TacoCatMVC.Controllers
             {
 
                 palindrome.IsPalindrome = false;
-                palindrome.Message = $"Sorry! {palindrome.InputWord} is NOT palindrome";
+                palindrome.Message = $"Sorry! {palindrome.InputWord} is NOT a palindrome";
             }
             return View(palindrome);
         }
